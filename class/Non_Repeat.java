@@ -4,9 +4,8 @@ import java.util.HashMap;
 
 public class Non_Repeat {
     public static void main(String[] args) {
-        
-    // code here
-        int[] arr = {1,5,6,18,20}
+      
+        int[] arr = {1,5,6,18,20};
         HashMap<Integer, Integer> freq = new HashMap<>();
         
         for(int n : arr){
@@ -17,6 +16,6 @@ public class Non_Repeat {
                 System.out.println(i);
             }
         }
-        System.out.println(0);
+        
     }
 }
