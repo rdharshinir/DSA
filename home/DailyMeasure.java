@@ -50,8 +50,8 @@ public class DailyMeasure {
 
         for(int num : arr){
             max = Math.max(max, num);
-            min = Math.min(max, num);
-            System.out.println(max - min);
+            min = Math.min(min, num);
+            System.out.println(Math.abs(max - min));
         }
         sc.close();
     }
